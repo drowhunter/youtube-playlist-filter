@@ -1,7 +1,7 @@
 {
   "name": "Youtube Playlist Filter",
-  "description": "Filter youtube playlist",
-  "version": "1.0.0",
+  "description": "Filter youtube playlists when adding videos to playlists in chrome",
+  "version": "1.0.1",
   "permissions": [
     "activeTab"
   ],
