@@ -1,0 +1,22 @@
+{
+  "name": "Youtube Playlist Filter",
+  "description": "Filter youtube playlist",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab"
+  ],
+  
+  "content_scripts": [ {
+    "js": [ "background.js" ],
+    "matches": [ 
+      "*://*.youtube.com/*"
+    ]
+  }],
+  "web_accessible_resources":["scripts/script.js"],
+  "browser_action": {
+    "name": "Youtube Playlist Filter",
+    "icons": [ "icon.png" ],
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
